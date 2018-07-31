@@ -7,6 +7,8 @@
     <body>
         <?php
             echo "teste";
+            echo "alteração";
+            echo "outra alteração";
             phpinfo();
         ?>
     </body>
