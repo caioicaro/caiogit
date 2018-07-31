@@ -5,8 +5,8 @@
 	}
 	public function entrar($url)
 	{
-		if($url>0) return FALSE;
+		$ed = $url + 5;
 		return redirect->route('entrar');
 	}
-	return redirect->route('home');
+	return redirect->route('entrar');
 ?>
